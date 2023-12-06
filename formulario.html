@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+
+<head>
+        <meta charset="utf-8" />
+        <meta name="description" content="Resumen del contenido de la página">
+        <title>Formulario</title>
+        <link rel="shortcut icon" href="imagenes de practica final/cuestionario.ico" type="image/x-icon" />
+
+        <link rel="stylesheet" href="formulario.css" type="text/css" />
+        <style type="text/css">
+
+        </style>
+
+</head>
+
+<body>
+        <header>
+                <h1>Formulario</h1>
+        </header>
+        <h5>Aquí va a haber un breve cuestionario para recopilar datos</h5>
+        <main>
+                <form action="phpinventado.php" method="post">
+                        Tu nombre<br>
+                        <input type="text" size="40" title="Escribe tu nombre real por favor" name="nombre" autofocus
+                                required /><br>
+                        contraseña<br>
+                        <input type="password" size="7" title="Escribe la contraseña que desee..." name="password"
+                                required /><br>
+                        correo electrónico<br>
+                        <input type="email" placeholder="ejemplo@dominio.com" size="40"
+                                title="Escribe tu correo electrónico awewonao" name="mail" required /><br>
+                        ¿que camiseta te gusta más?<br>
+                        <input type="radio" name="camiseta" value="Barça" checked /> Barça
+                        <input type="radio" name="camiseta" value="Leicester" /> Leicester
+                        <input type="radio" name="camiseta" value="Málaga" /> Málaga
+                        <input type="radio" name="camiseta" value="Betis" /> Betis <br>
+                        Cuanto te ha gustado esta página web<br>
+                        <input type="range" min="1" max="10" value="1" step="1" title="Vamos tu puedes"
+                                name="barra" /><br>
+                        Cuanto pagarías por una de estas camisetas<br>
+                        <input type="number" min="o" max="100000000" step="1" value="0" title="Introduzca un número"
+                                name="numero" /><br>
+                        Qué camisetas no te gustan<br>
+                        <input type="checkbox" name="camiseta1" value="Barça" /> Barça
+                        <input type="checkbox" name="camiseta2" value="Leicester" /> Leicester
+                        <input type="checkbox" name="camiseta3" value="Málaga" /> Málaga
+                        <input type="checkbox" name="camiseta4" value="Betis" /> Betis
+                        <input type="checkbox" name="camiseta5" value="Otra" /> Otra<br>
+                        <textarea name="mensaje" placeholder="Comenta posibles mejoras para la web"></textarea><br>
+                        <input type="submit" value="Enviar datos">
+
+                </form>
+        </main>
+        <footer>
+                <p>Autor: Jorge Salguero Abad</p>
+                <p><a href="mailto:jsalaba2610@g.educaand.es">jsalaba2610@g.educaand.es</a></p>
+        </footer>
+</body>
+
+</html>

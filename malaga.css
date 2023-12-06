@@ -1,0 +1,16 @@
+body{
+    background: linear-gradient(white, rgb(0, 238, 255));
+    background-size: 2000px 2000px;
+    background-repeat: no-repeat;
+  }
+img.camiseta{
+    border-radius: 8px;
+    box-shadow: 1px 1px 1px 1px rgba(32,32,32,1);
+    width: 200px;
+    height: 200px;
+    opacity:0.5;
+  }
+  table{
+    border: blue ridge;
+    border-radius: 10px;
+  }

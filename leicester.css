@@ -1,0 +1,13 @@
+body{
+  background: linear-gradient(#4f3cf6, #ffff00);
+    background-size: 2000px 2000px;
+    background-repeat: no-repeat;
+  }
+img.camiseta{
+  
+    width: 200px;
+    height: 200px;
+  }
+table{
+border: black solid; 
+}

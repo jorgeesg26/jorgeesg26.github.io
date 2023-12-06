@@ -1,0 +1,20 @@
+body{
+    background: linear-gradient(white,rgb(49, 240, 49));
+    background-size: 2000px 2000px;
+    background-repeat: no-repeat;
+  }
+img.camiseta{
+    box-shadow: 1px 1px 1px 1px rgba(32,32,32,10);
+    width: 200px;
+    height: 200px;
+    transform: translate(200px);
+  }
+  .jugadores {
+    display: grid;
+    border: 2px solid #07b3f7;
+    border-radius: 5px;
+    background-color: #e6fbff;
+  }
+  
+
+  

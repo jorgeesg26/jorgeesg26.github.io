@@ -1,0 +1,13 @@
+
+  body{
+    background: linear-gradient(blue,red);
+    background-size: 2000px 2000px;
+    background-repeat: no-repeat;
+  }
+img.camisetabarça{
+  
+    width: 200px;
+    height: 200px;
+    transform:scale(1,0.9);
+}
+  
